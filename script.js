@@ -1,8 +1,6 @@
 function addPlace() {
-    let place = prompt("Enter a new tourist place:");
-    if (place) {
-        let li = document.createElement("li");
-        li.innerText = place;
-        document.getElementById("list").appendChild(li);
-    }
+    let ul = document.getElementById("list");
+    let li = document.createElement("li");
+    li.innerText = "New tourist place added!";
+    ul.appendChild(li);
 }
