@@ -26,13 +26,11 @@ h1 {
 }
 
 /* Card style */
-.card {
-    background: white;
-    width: 280px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    overflow: hidden;
-    transition: transform 0.3s ease;
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;   /* FIXED HERE */
+    gap: 25px;
 }
 
 .card:hover {
